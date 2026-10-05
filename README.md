@@ -19,25 +19,7 @@ An AI-powered research assistant that uses Retrieval-Augmented Generation (RAG),
 
 ## Architecture
 
-User
-↓
-FastAPI
-↓
-LangGraph Agent
-↓
-Decision
-↙        ↘
-Calculator  Research
-              ↓
-           Embedding
-              ↓
-           ChromaDB
-              ↓
-         PDF Context
-              ↓
-            Gemini
-              ↓
-          Final Answer
+![AI Research Assistant Architecture](architecture.png)
 
 ## Technologies
 
